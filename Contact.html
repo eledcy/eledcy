@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>eledcy</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<meta charset="utf-8">
+		<meta name="description" content="this is the eledcy website">
+		<meta name="keywords" content="programming, tutorials">
+	</head>
+	<body>
+		<div class="headerMenu">
+			<div class="wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div id="menu">
+					<a href="index.html">Home</a>
+					<a href="Devs.html">Devs</a>
+					<a href="SignUp.html">SignUp</a>
+					<a href="SignIn.html">SignIn</a>
+					<a href="Contact.html">Contact</a>
+					<a href="Websites.html">Websites</a>
+					<a href="Services.html">Services</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contact-title">
+			<h1>Contact</h1>
+		</div>
+
+		<div class="contact-form">
+			<form action="inc/contact.php" id="contact-form" method="POST">
+				<input type="text" name="UserName" placeholder="UserName" required><br>
+				<input type="text" name="Email" placeholder="Email" required><br>
+				<textarea name="Message" id="Message" cols="30" rows="10" required></textarea><br>
+				<input type="submit" name="Send" class="SEND" value="SEND">
+			</form>
+		</div>
+	</body>
+	<footer>
+		<p>&copy; eledcy 2020</p>
+	</footer>
+</html>
